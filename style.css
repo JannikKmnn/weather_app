@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Asap, sans-serif;
+}
+
+.topbox{
+    float: left;
+    width: 33.3333333%;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.topbox:nth-child(2){
+    text-align: center;
+}
+
+body{
+    background-color: lightseagreen;
+}
+
+header{
+    height: 80px;
+    background-color: skyblue;
+}
+
+#settingspic{
+    float: right;
+}
+
+#cityinformations{
+    float: left;
+    margin: 70px;
+}
+
+.inf{
+    float: top;
+    margin: 5%;
+}
+
+#htemp{
+    width: 50%;
+    margin-top: 20px;
+}
+
+
+#tempimg{
+    height: 30px;
+    width: 20px;
+}
+
+#rainimg{
+    height: 30px;
+    width: 20px;
+}
+
+#city{
+    font-size: 50px;
+}
+
+#footstamp{
+    text-align: right;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+

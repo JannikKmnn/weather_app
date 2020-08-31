@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger Wetter</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class = "topbox">
+            <div id = "date">
+                
+            </div>
+            <div id = "time">
+                
+            </div>
+        </div>
+        <div class = "topbox">
+            <h1>
+                Your Weather
+            </h1>
+        </div>
+        <div class = "topbox">
+            <div id = "settingspic">
+                <img src = "pics/SettingsIcon.png"/>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id = "informations">
+            <div id = "cityinformations" class = "inf">
+                <div>
+                    <h1 id = "city">Hamburg</h1>
+                </div>
+                <div id = "htemp">
+                    <div id = "tempimg">
+                        <img src = "pics/TempIcon.png" height = "30"/>
+                    </div>
+                    <div>
+                        <h2 id = "temperature">
+                            
+                        </h2>
+                    </div>
+                </div>
+                <div id = "hrain">
+                    <div id = "rainimg">
+                        <img src = "pics/UmbrellaIcon.png" height = "30"/>
+                    </div>
+                    <div>
+                        <h2 id = "rain">
+                            
+                        </h2>
+                    </div>
+                </div>
+                <div id = "hwind">
+                    <div id = "windimg">
+                        <img src = "pics/WindIcon.png" height = "30"/>
+                    </div>
+                    <div>
+                        <h2 id = "wind">
+                           
+                        </h2>
+                    </div>
+                </div>
+            </div>
+            <div id = "simpic" class = "inf">
+    
+            </div>
+        </section>
+        <section id = "graphics">
+            <div class = "graphics">
+                <canvas id = "weathercharts"></canvas>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p id = "footstamp">Weather Data from <a href = "https://openweathermap.org/" target = "_blank">openweathermap.org</a>.</p>
+    </footer>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <script src = "weather.js"></script>
+</body>
+</html>
