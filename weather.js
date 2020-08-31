@@ -12,7 +12,7 @@ let weathericon = document.getElementById("simpic");
 let chart = document.getElementById("weathercharts");
 
 //Set your Api-ID
-const apiid;
+const apiid = '';
 
 var times = [];
 
